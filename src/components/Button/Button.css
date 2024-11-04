@@ -1,0 +1,35 @@
+.button-container {
+  width: 88px;
+  height: 32px;
+  line-height: 32px;
+  color: #0c0c0c;
+  text-align: center;
+  user-select: none;
+}
+
+.button-container.normal {
+  background-color: ghostwhite;
+  border-radius: 6px;
+  margin-left: 6px;
+}
+
+.button-container.plain {
+  color: ghostwhite;
+}
+
+.button-container.small {
+  width: 32px;
+  color: ghostwhite;
+}
+
+.button-container.normal:hover {
+  background-color: #9c9c9c;
+}
+
+.button-container.plain:hover {
+  color: #9c9c9c;
+}
+
+.button-container.small:hover {
+  color: #9c9c9c;
+}

@@ -1,0 +1,33 @@
+.topbar-container {
+  display: flex;
+  background-color: #0c0c0c;
+  padding: 8px;
+  z-index: 1;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.topbar-derek-bio {
+  flex: 1 1 auto;
+  color: ghostwhite;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.topbar-actions {
+  width: 176px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: LoveOfThunder;
+  color: ghostwhite;
+  margin-right: 4px;
+}

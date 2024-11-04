@@ -1,0 +1,28 @@
+.home-container {
+  padding: 12px;
+}
+
+.home-container p, h2, span {
+  font-family: LoveOfThunder;
+}
+
+.home-container img {
+  align-self: center;
+  width: 148px;
+}
+
+.home-info-row {
+  display: flex;
+}
+
+.home-timeline-row {
+  display: flex;
+}
+
+.home-card {
+  background-color: #9c9c9c;
+  border-radius: 12px;
+  color: ghostwhite;
+  padding: 12px;
+  margin: 6px;
+}

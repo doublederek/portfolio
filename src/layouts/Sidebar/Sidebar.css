@@ -1,0 +1,16 @@
+.sidebar-container {
+  display: flex;
+  background-color: #9c9c9c;
+  padding: 8px;
+  z-index: 1;
+}
+
+.sidebar-nav .nav-link {
+  color: ghostwhite;
+  font-family: LoveOfThunder;
+}
+
+.sidebar-nav .nav-link.active {
+  background-color: ghostwhite;
+  color: #0c0c0c;
+}

@@ -1,0 +1,57 @@
+.tarot-cards-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.tarot-cards-group {
+  width: 100%;
+  height: 100%;
+  transform: translate(0%, 0);
+}
+  
+.tarot-cards-deck {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+}
+  
+.tarot-cards-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 45vh;
+  max-width: 336px;
+  height: 85vh;
+  max-height: 570px;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+}
+
+.tarot-cards-data {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tarot-cards-data-text {
+  margin-top: 96px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  color: ghostwhite;
+  font-family: LoveOfThunder;
+  text-align: center;
+}
+
+.tarot-text-horizontal {
+  flex-grow: 1;
+  flex-basis: 0;
+}

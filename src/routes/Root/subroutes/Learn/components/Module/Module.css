@@ -1,0 +1,56 @@
+.module-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin: 6px;
+  background-color: #9C9C9C;
+  border-radius: 12px;
+  font-family: LoveOfThunder;
+}
+
+.module-header {
+  margin-bottom: 0;
+}
+
+.module-title {
+  color: #0C0C0C;
+}
+
+.module-subtitle {
+  color: ghostwhite;
+  font-size: larger;
+}
+
+.module-description {
+  text-align: right;
+  color: #0C0C0C;
+  text-decoration: underline;
+  text-decoration-color: ghostwhite;
+}
+
+.module-expand-click {
+  opacity: 30%;
+  font-size: small;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.module-items-container {
+  /* border: #0C0C0C 6px solid; */
+  border-radius: 12px;
+  padding-left: 12px;
+  
+}
+
+.module-item {
+  font-size: x-large;
+  margin-bottom: 12px;
+}
+
+.module-item:hover {
+  cursor: pointer;
+  text-decoration: underline 3px;
+  text-decoration-color: #0C0C0C;
+}

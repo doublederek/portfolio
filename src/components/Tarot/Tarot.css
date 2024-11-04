@@ -1,0 +1,19 @@
+.tarot-container {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tarot-draw-card {
+  position: fixed;
+  color: ghostwhite;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 400px;
+  z-index: 1;
+  font-size: 2rem;
+  font-family: LoveOfThunder;
+  user-select: none;
+}
